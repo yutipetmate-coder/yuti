@@ -52,7 +52,7 @@ margin: $ds.spaces.vertical-gap.zero
 			-- card.icon-card: Live Map
 			;;icon: $assets.files.assets.map-1.svg
 			width.fixed.px: 350
-			background.solid: $ds.colors.background.step-2
+			background.solid: $inherited.colors.background.step-2
 			back-shadow: true
 			dark: true
 			
@@ -61,7 +61,7 @@ margin: $ds.spaces.vertical-gap.zero
 			-- card.icon-card: Instant Vibes
 			;;icon: $assets.files.assets.coffee.svg
 			width.fixed.px: 350
-			background.solid: $ds.colors.background.step-2
+			background.solid: $inherited.colors.background.step-2
 			back-shadow: true
 			dark: true
 			
@@ -70,7 +70,7 @@ margin: $ds.spaces.vertical-gap.zero
 			-- card.icon-card: Events & Badges
 			;;icon: $assets.files.assets.ticket.svg
 			width.fixed.px: 350
-			background.solid: $ds.colors.background.step-2
+			background.solid: $inherited.colors.background.step-2
 			back-shadow: true
 			dark: true
 
@@ -79,7 +79,7 @@ margin: $ds.spaces.vertical-gap.zero
 			-- card.icon-card: Verified & Safe
 			;;icon: $assets.files.assets.verified.svg
 			width.fixed.px: 350
-			background.solid: $ds.colors.background.step-2
+			background.solid: $inherited.colors.background.step-2
 			back-shadow: true
 			dark: true
 
@@ -88,7 +88,7 @@ margin: $ds.spaces.vertical-gap.zero
 			-- card.icon-card: Talent Mode
 			;;icon: $assets.files.assets.guitar.svg
 			width.fixed.px: 350
-			background.solid: $ds.colors.background.step-2
+			background.solid: $inherited.colors.background.step-2
 			back-shadow: true
 			dark: true
 
@@ -97,7 +97,7 @@ margin: $ds.spaces.vertical-gap.zero
 			-- card.icon-card: Partner Perks
 			;;icon: $assets.files.assets.hand.svg
 			width.fixed.px: 350
-			background.solid: $ds.colors.background.step-2
+			background.solid: $inherited.colors.background.step-2
 			back-shadow: true
 			dark: true
 			
