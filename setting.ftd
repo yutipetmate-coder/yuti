@@ -1,0 +1,12 @@
+-- integer max-width: 1520
+
+-- string copyright: Copyright © 2025
+-- ftd.image-src instagram-logo: $assets.files.assets.instagram.svg
+-- string instagram-url: /
+-- ftd.image-src tiktok-logo: $assets.files.assets.tiktok.svg
+-- string tiktok-url: /
+-- string site-url: /
+-- ftd.image-src site-logo: $assets.files.assets.yuti-logo.svg
+-- ftd.image-src site-logo-dark: $assets.files.assets.yuti-dark-logo.svg
+-- integer logo-height: 32
+-- boolean social: false

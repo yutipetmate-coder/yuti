@@ -1,0 +1,337 @@
+-- ds.site-page: YUTI
+spacing: $ds.spaces.vertical-gap.zero
+inset: $ds.spaces.inset-square.zero
+theme-switcher: false
+document-title: YUTI
+document-description: Instant plans with real people near you.
+document-image: https://yuti.fifthtry.site/-/yuti.fifthtry.site/assets/og-image.png
+
+-- ds.section-column:
+align-content: top-center
+inset if { ftd.device == "mobile" }: $ds.spaces.inset-square.zero
+spacing: $ds.spaces.vertical-gap.zero
+margin: $ds.spaces.vertical-gap.zero
+
+	-- hero.hero-with-background: Meet Your Now.
+	cta-text: Join the community →
+	cta-link: /
+	bg-image: $assets.files.assets.dark-hero.png
+	min-height.fixed.px: 710
+	font: true
+	text-wrap: true
+	sub-title: Instant plans with real people near you. 
+	color-hero: #ffffff
+	color-text: #ffffff
+
+	• Coffee • Movies • Music • Walks • Pet time • Shopping
+	
+	-- ds.column:
+	inset: $ds.spaces.inset-square.zero
+	
+		-- hero.hero-sticky-image: Why YUTI?
+		border: true
+		dark: true
+		text-wrap: true
+
+		YUTI is not another dating app. It’s a social lifestyle app where you
+		make instant plans with real people around you. No endless
+		swiping. No small talk fatigue. Just real connections through
+		activities you already love.
+		
+	-- end: ds.column
+		
+		-- ftd.row:
+		width: fill-container
+		padding-horizontal.px: 120
+		padding-horizontal.px if { ftd.device == "mobile" }: 24
+        wrap: true
+		spacing.fixed.px: 32
+		spacing.fixed.px if { ftd.device == "mobile" }: 24
+		align-content: center
+
+			-- card.icon-card: Live Map
+			;;icon: $assets.files.assets.map-1.svg
+			width.fixed.px: 350
+			background.solid: $ds.colors.background.step-2
+			back-shadow: true
+			dark: true
+			
+			See people near you, active now.
+			
+			-- card.icon-card: Instant Vibes
+			;;icon: $assets.files.assets.coffee.svg
+			width.fixed.px: 350
+			background.solid: $ds.colors.background.step-2
+			back-shadow: true
+			dark: true
+			
+			Coffee, movies, music, shopping, pet walks, and more.
+			
+			-- card.icon-card: Events & Badges
+			;;icon: $assets.files.assets.ticket.svg
+			width.fixed.px: 350
+			background.solid: $ds.colors.background.step-2
+			back-shadow: true
+			dark: true
+
+			Unlock rooftop and masquerade parties.
+
+			-- card.icon-card: Verified & Safe
+			;;icon: $assets.files.assets.verified.svg
+			width.fixed.px: 350
+			background.solid: $ds.colors.background.step-2
+			back-shadow: true
+			dark: true
+
+			Profiles checked, partner venues, SOS button.
+			
+			-- card.icon-card: Talent Mode
+			;;icon: $assets.files.assets.guitar.svg
+			width.fixed.px: 350
+			background.solid: $ds.colors.background.step-2
+			back-shadow: true
+			dark: true
+
+			Show skills & hobbies, not just selfies.
+			
+			-- card.icon-card: Partner Perks
+			;;icon: $assets.files.assets.hand.svg
+			width.fixed.px: 350
+			background.solid: $ds.colors.background.step-2
+			back-shadow: true
+			dark: true
+			
+			Café deals, mall coupons, and exclusive city offers.
+			
+		-- end: ftd.row
+
+	-- ftd.column:
+	margin-top.px: 80
+	width: fill-container
+
+		-- ftd.column:
+		width: fill-container
+		align-content: center
+		background.solid: $inherited.colors.background.step-1
+		padding-vertical.px: 120
+		spacing.fixed.px: 32
+		
+			-- ds.heading-large: Pick Your Vibe
+			align: center
+			color: #000000
+			
+			-- ftd.row:
+			width: fill-container
+			padding-horizontal.px: 120
+			padding-horizontal.px if { ftd.device == "mobile" }: 24
+	        wrap: true
+			spacing.fixed.px: 32
+			spacing.fixed.px if { ftd.device == "mobile" }: 24
+			align-content: center
+			
+				-- card.overlay-card: Coffee
+				card-image: $assets.files.assets.friends-coffee.jpg
+				fixed-height: true
+				
+				-- card.overlay-card: Walk
+				card-image: $assets.files.assets.walk.jpg
+				fixed-height: true
+				
+				-- card.overlay-card: Music
+				card-image: $assets.files.assets.light-guitar.jpg
+				fixed-height: true
+				
+				-- card.overlay-card: Movies
+				card-image: $assets.files.assets.movie-time.jpg
+				fixed-height: true
+				
+				-- card.overlay-card: Pet Walk
+				card-image: $assets.files.assets.pet-walk.jpg
+				fixed-height: true
+				
+				-- card.overlay-card: Shopping
+				card-image: $assets.files.assets.shopping-time.png
+				fixed-height: true
+				
+			-- end: ftd.row
+
+		-- end: ftd.column
+
+		-- ftd.row:
+		width: fill-container
+		align-content: center
+		wrap: true
+		margin-vertical.px: 120
+		padding-horizontal.px: 70
+		padding-horizontal.px if { ftd.device == "mobile" }: 24
+
+		-- card.occasion-card: Not Just Meetings, But Moments.
+		icon: $assets.files.assets.dandia-dance.jpg
+		badge: $badge
+		dark: true
+		
+		The more you use YUTI, the more you unlock. Earn badges → Explorer,
+		Social Bee, Creator → and get invites to secret rooftop parties,
+		masquerades, and curated gigs.
+
+		-- end: ftd.row
+
+		-- ftd.row:
+		width: fill-container
+		align-content: center
+		wrap: true
+		padding-horizontal.px: 70
+		padding-horizontal.px if { ftd.device == "mobile" }: 24
+		background.solid: #020913
+
+		-- hero.hero-with-icon: You are in safe hands
+		icon: $assets.files.assets.verified.svg
+		color-hero: #ffffff
+		color-text: #ffffff
+		min-height.fixed.px: 350
+
+		Verified users, safe zones, and smart tools make YUTI the safest way
+		to meet new people.
+
+		-- end: ftd.row
+
+		-- hero.hero-with-cta: Be the First to Feel the Vibe.
+		cta-text: Connect
+		cta-link: /
+		bg-image: $assets.files.assets.connect.svg
+		min-height.fixed.px: 500
+		color-hero: #ffffff
+		color-text: #ffffff
+
+		Mumbai pilots first. Sign up now and unlock your **Founding Member Badge**.
+
+	-- end: ftd.column
+
+-- end: ds.section-column
+
+-- end: ds.site-page
+
+
+
+
+
+
+
+-- card.badges list badge:
+
+-- card.badges: Explorer
+icon: $assets.files.assets.badge-1.svg
+
+-- card.badges: Creator 
+icon: $assets.files.assets.badge-2.svg 
+
+-- card.badges: Social Bee 
+icon: $assets.files.assets.badge-3.svg
+
+-- end: badge
+
+
+
+-- stepper.number list numbers:
+
+-- stepper.number: Lorem
+image: https://meenukumari28.github.io/admint-multisteps/-/meenukumari28.github.io/admint-multisteps/assets/card4.png
+number: 1
+
+I design and develop services for customers of all sizes, specializing
+in creating stylish, modern websites.
+
+-- stepper.number: Lorem
+image: https://meenukumari28.github.io/admint-multisteps/-/meenukumari28.github.io/admint-multisteps/assets/card4.png
+number: 2
+right: true
+
+I design and develop services for customers of all sizes, specializing
+in creating stylish, modern websites.
+
+-- stepper.number: Lorem
+image: https://meenukumari28.github.io/admint-multisteps/-/meenukumari28.github.io/admint-multisteps/assets/card4.png
+number: 3
+
+I design and develop services for customers of all sizes, specializing
+in creating stylish, modern websites.
+
+-- end: numbers
+
+
+
+
+
+
+
+
+-- testimonials.testimonial list list-of-testimonials:
+
+-- testimonials.testimonial: Fastn
+user: Patrica AVA
+designation: UI Designer
+avatar: $assets.files.assets.avatar.svg
+circle-avatar: true
+top: true
+
+A design approach is a general philosophy that may or may not include a guide
+for specific methods that work.It is a long established fact that a reader will
+be distracted by the readable content of a page when looking at its layout.
+
+-- testimonials.testimonial: Fastn is power
+user: Meenu
+designation: Fastn Builder
+avatar: $assets.files.assets.avatar.svg
+circle-avatar: true
+top: true
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum. Sed eu orci mi. Cras sit amet ligula vitae enim interdum
+ultrices. Sed a ultrices purus, nec faucibus justo. Nulla ut lacus quis odio
+aliquet faucibus.
+
+-- testimonials.testimonial: Fastn is best
+user: Priyanka
+designation: Fastn Builder
+avatar: $assets.files.assets.avatar.svg
+circle-avatar: true
+top: true
+
+
+Nam lacinia nisi sed mauris luctus, id vestibulum enim luctus. Integer iaculis
+est a turpis consequat, id sagittis tellus aliquam. Suspendisse sagittis elit
+nec turpis viverra feugiat. Morbi fermentum convallis magna, eu sagittis ligula
+faucibus at.
+
+-- end: list-of-testimonials
+
+
+
+
+
+
+
+-- accordion.accordion-list list accordions:
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- end: accordions

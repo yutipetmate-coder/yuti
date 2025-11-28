@@ -1,0 +1,57 @@
+-- import: navbar.fifthtry.site as header
+-- import: footer.fifthtry.site
+-- import: design-system.fifthtry.site
+export: *
+
+-- ftd.image-src site-logo: $setting.site-logo
+-- ftd.image-src site-logo-dark: $setting.site-logo-dark
+-- string site-url: $setting.site-url
+-- string copyright: $setting.copyright
+
+-- import: yuti.fifthtry.site/cs
+-- import: karma-typography.fifthtry.site as karma
+
+-- ftd.color-scheme colors: $cs.main
+-- ftd.type-data types: $karma.types
+
+-- ds.page-widths widths:
+regular.px: 1920
+narrow.px: 1260
+wide.px: 1920
+
+
+
+-- component site-header:
+
+-- ftd.column:
+width: fill-container
+padding-horizontal.px: 70
+padding-horizontal.px if { ftd.device == "mobile" }: 24
+
+-- header.header:
+site-url: /
+site-logo: $setting.site-logo
+
+-- end: ftd.column
+
+-- end: site-header
+
+
+
+
+
+
+
+-- component site-footer:
+
+-- footer.social-sideline-footer:
+footer-links: $footer.sitemap.sections
+copyright: $setting.copyright
+site-url: $setting.site-url
+site-logo: $site-logo-dark
+logo-height: $setting.logo-height
+social: $setting.social
+
+Meet. Play. Create. Flow.
+
+-- end: site-footer

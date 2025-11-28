@@ -1,0 +1,30 @@
+-- ds.site-page: Cinema Core
+spacing: $ds.spaces.vertical-gap.zero
+inset: $ds.spaces.inset-square.zero
+theme-switcher: false
+margin: $ds.spaces.vertical-gap.zero
+
+-- ds.section-column:
+flush: narrow
+margin: $ds.spaces.vertical-gap.zero
+inset: $ds.spaces.inset-tall.large
+
+-- ds.heading-large: How to use this template
+
+To use this template you just have to go to **index.ftd** file and have to do the changes there.
+
+Here are the list of components you have to search and change.
+
+- **hero.circle-hero**
+- **card.icon-card**
+- **accordion.right-hug-accordion**
+- **accordions**: To change team accordion detail
+- **card.metric-card**
+- **hero.hero-sticky-image**
+- **card.overlay-card**
+- **team.member**
+- **team-member**: To change team members detail
+
+-- end: ds.section-column
+
+-- end: ds.site-page

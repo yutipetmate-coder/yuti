@@ -1,0 +1,35 @@
+-- import: fastn
+
+-- fastn.package: yuti.fifthtry.site
+
+-- fastn.dependency: design-system.fifthtry.site
+provided-via: yuti.fifthtry.site/ds
+
+-- fastn.dependency: hero.fifthtry.site
+-- fastn.dependency: stepper.fifthtry.site
+-- fastn.dependency: accordion.fifthtry.site
+-- fastn.dependency: card.fifthtry.site
+-- fastn.dependency: team.fifthtry.site
+-- fastn.dependency: testimonial.fifthtry.site
+-- fastn.dependency: footer.fifthtry.site
+-- fastn.dependency: navbar.fifthtry.site
+-- fastn.dependency: karma-typography.fifthtry.site
+
+-- fastn.auto-import: hero.fifthtry.site as hero
+-- fastn.auto-import: stepper.fifthtry.site as stepper
+-- fastn.auto-import: accordion.fifthtry.site as accordion
+-- fastn.auto-import: card.fifthtry.site as card
+-- fastn.auto-import: team.fifthtry.site as team
+-- fastn.auto-import: team.fifthtry.site/record as team-r
+-- fastn.auto-import: yuti.fifthtry.site/assets
+-- fastn.auto-import: yuti.fifthtry.site/setting
+-- fastn.auto-import: testimonial.fifthtry.site as testimonials
+-- fastn.auto-import: design-system.fifthtry.site as ds
+
+
+-- fastn.sitemap:
+
+# Privacy: /
+# Terms: /
+# Join Yuti: /
+# Instagram: /
